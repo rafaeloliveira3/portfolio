@@ -2,14 +2,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 7% 0;
+    gap: 5vh;
+    background-image: url(../../img/background/section1-bg.svg);
 }
 .main-text-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
 }
-.main-text-container p{
-    font-size: 2rem;
+.main-text-container h5{
     width: 50%;
     text-align: center;
+}
+.sites-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+.sites-container{
+    display: flex;
+    align-items: center;
+}
+.sites-container img{
+    height: 140px;
+    transition: all .7s;
+}
+.sites-container img:hover{
+    height: 200px;
+}
+.sites-subtitle{
+    color: #000;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    gap: 20%;
+}
+.title-aboutme{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-aboutme{
+    width: 50%;
 }
