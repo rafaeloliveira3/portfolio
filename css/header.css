@@ -7,7 +7,7 @@ header{
     width: 100%;
     gap: 10%;
     position: fixed;
-    background-color: aqua;
+    background-color: #0009;
 }
 header a{
     text-decoration: none;
@@ -19,5 +19,5 @@ header a{
     align-items: center;
 }
 .logo{
-    height: 50px;
+    height: 80px;
 }

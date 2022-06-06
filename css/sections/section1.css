@@ -5,6 +5,8 @@
     padding: 7% 0;
     gap: 5vh;
     background-image: url(../../img/background/section1-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-text-container{
     display: flex;
