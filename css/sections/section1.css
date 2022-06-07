@@ -7,6 +7,7 @@
     background-image: url(../../img/background/section1-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, .5) 0 8px 15px;
 }
 .main-text-container{
     display: flex;
@@ -17,6 +18,9 @@
 .main-text-container h5{
     width: 50%;
     text-align: center;
+}
+.click-me{
+    display: none;
 }
 .sites-display{
     display: flex;
@@ -38,6 +42,15 @@
 .sites-subtitle{
     color: #000;
 }
+.button-more{
+    color: #fff;
+}
+
+.main-section-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .about-me{
     display: flex;
@@ -54,4 +67,104 @@
 
 .content-aboutme{
     width: 50%;
+}
+.above-cards{
+    display: none;
+}
+
+.card-oqeufaco{
+    display: none;
+    color: #fff;
+    gap: 20%;
+}
+.card-oqeufaco h1{
+    font-size: 2.5rem;
+}
+.card-experience{
+    display: none;
+    color: #fff;
+    gap: 20%;
+}
+.card-experience h1{
+    font-size: 2.5rem;
+}
+
+@media (max-width:768px){
+    .sessao1{
+        padding-top: 30%;
+    }
+    .main-text-container h5{
+        width: 70%;
+    }
+    .main-text-container h1{
+        font-size: 3.5rem;
+    }
+    .click-me{
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+    .sites-container{
+        flex-direction: column;
+    }
+    .sites-container img{
+        height: 100px;
+    }
+    .sites-container img:hover{
+        height: 160px;
+    }
+    .about-me{
+        width: 80%;
+        transition: .5s;
+    }
+    .about-me h1{
+        font-size: 2.5rem;
+    }
+    .content-aboutme{
+        display: none;
+    }
+    .above-cards{
+        display: block;
+    }
+    .about-me.hide{
+        transform: translate(200%);
+    }
+
+    .card-oqeufaco{
+        transform: translate(200%);
+        transition: .5s;
+        height: 0;
+    }
+    #content-oqeufaco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content-oqeufaco h5{
+        text-align: center;
+        width: 70%;
+    }
+    .card-oqeufaco.show{
+        height: max-content;
+        transform: translate(0);
+    }
+
+    .card-experience{
+        transform: translate(200%);
+        transition: .5s;
+        height: 0;
+    }
+    #content-experience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content-experience h5{
+        text-align: center;
+        width: 70%;
+    }
+    .card-experience.show{
+        height: max-content;
+        transform: translate(0);
+    }
 }

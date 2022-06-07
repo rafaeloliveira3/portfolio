@@ -8,6 +8,7 @@
     background-image: url(../../img/background/section1-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, .5) 0 -8px 15px; 
 }
 
 .main-text-contact{
@@ -38,4 +39,16 @@
 }
 .link-button i{
     font-size: 3rem;
+}
+@media (max-width:768px){
+    .sessao3{
+        gap: 2vh;
+    }
+    .main-text-contact{
+        text-align: center;
+    }
+    .social-links-container{
+        flex-direction: column;
+        gap: 10px;
+    }
 }
