@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/skeleton-framework/normalize.css">
     <link rel="stylesheet" href="./css/skeleton-framework/skeleton.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -13,8 +14,11 @@
     <link rel="stylesheet" href="./css/sections/section1.css">
     <link rel="stylesheet" href="./css/sections/section2.css">
     <link rel="stylesheet" href="./css/sections/section3.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/menu-burguer.css">
     <link rel="icon" href="./img/top-ico.png" type="image/png">
 
+    <script src="./js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/b3cdcbfbcc.js" crossorigin="anonymous"></script>
     <script src="./js/main.js" defer></script>
     <title>Home</title>
@@ -24,12 +28,14 @@
         <div class="image-container">
             <img src="./img/logo.png" alt="logo" class="logo">
         </div>
-        <a href="#">Portifólio e Experiência</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <div class="links-container">
+            <a href="#portifolio">Portifólio e Experiência</a>
+            <a href="#sobremim">Projects</a>
+            <a href="#contato">Contact</a>
+        </div>
     </header>
     <main>
-        <section class="sessao1">
+        <section class="sessao1" id="portifolio">
             <span class="main-text-container">
                 <h1>
                     Bem Vindo!
@@ -58,31 +64,53 @@
                     </a>
                 </div>
                 <span class="sites-subtitle">
-                    <button>
-                        <a href="https://github.com/rafaeloliveira3">
+                    <a href="https://github.com/rafaeloliveira3">
+                        <button class="button-more">
                             Mais Projetos
-                        </a>
-                    </button>
+                        </button>
+                    </a>
                 </span>
             </div>
-            <div class="about-me">
-                <span class="title-aboutme">
-                    <h1>O que eu faço?</h1>
-                    <h5 class="content-aboutme">
-                        Atualmente trabalho com programação front-end no SENAI Jandira, com linguagens como
-                        HTML5, CSS e JavaScript. Também trabalho com JAVA.
-                    </h5>
-                </span>
-                <span class="title-aboutme">
-                    <h1>Minha Experiência</h1>
-                    <h5 class="content-aboutme">
-                        Por enquanto minha expêriencia se baseia apenas no ensino do SENAI. Pode ver todos os meus projetos atualmente
-                        desenvolvidos em meu GitHub.
-                    </h5>
-                </span>
+            <div class="main-section-part">
+                <div class="about-me" id="about-me">
+                    <span class="title-aboutme">
+                        <h1 id="oqeufaco">O que eu faço?</h1>
+                        <p class="click-me">Clique em Mim!</p>
+                        <h5 class="content-aboutme">
+                            Atualmente trabalho com programação front-end no SENAI Jandira, com linguagens como
+                            HTML5, CSS e JavaScript. Também trabalho com JAVA.
+                        </h5>
+                    </span>
+                    <span class="title-aboutme" id="experience-about-me">
+                        <h1 class="title-experience" id="experience">Minha Experiência</h1>
+                        <p class="click-me">Clique em Mim!</p>
+                        <h5 class="content-aboutme">
+                            Por enquanto minha expêriencia se baseia apenas no ensino do SENAI. Pode ver todos os meus projetos atualmente
+                            desenvolvidos em meu GitHub.
+                        </h5>
+                    </span>
+                </div>
+                <div class="above-cards">
+                    <span class="card-oqeufaco" id="content-oqeufaco">
+                        <h1 id="oqeufaco-card">O que eu faço?</h1>
+                        <p class="click-me">Clique em Mim!</p>
+                        <h5>
+                            Atualmente trabalho com programação front-end no SENAI Jandira, com linguagens como
+                            HTML5, CSS e JavaScript. Também trabalho com JAVA.
+                        </h5>
+                    </span>
+                    <span class="card-experience" id="content-experience">
+                        <h1 id="experience-card">Minha Experiência</h1>
+                        <p class="click-me">Clique em Mim!</p>
+                        <h5>
+                            Por enquanto minha expêriencia se baseia apenas no ensino do SENAI. Pode ver todos os meus projetos atualmente
+                            desenvolvidos em meu GitHub.
+                        </h5>
+                    </span>
+                </div>
             </div>
         </section>
-        <section class="sessao2">
+        <section class="sessao2" id="sobremim">
             <div class="section-title">
                 <h1>Sobre meus Projetos</h1>
                 <h5>
@@ -121,23 +149,23 @@
                 </span>
             </div>
         </section>
-        <section class="sessao3">
+        <section class="sessao3" id="contato">
             <span class="main-text-contact">
                 <h1>Contate-me</h1>
                 <h5>Fale comigo em alguma das minhas plataformas de contato!</h5>
             </span>
             <div class="social-links-container">
-                <a href="#" class="links">
+                <a href="https://www.linkedin.com/in/rafael-oliveira-de-souza-07111223a/" class="links" target="_blank">
                     <button class="link-button">
                         <i class="fa-brands fa-linkedin"></i> Linkedin
                     </button>
                 </a>
-                <a href="#" class="links">
+                <a href="mailto:rafael.souza075@outlook.com" class="links">
                     <button class="link-button">
                         <i class="fa-solid fa-envelope"></i> Email
                     </button>
                 </a>
-                <a href="#" class="links">
+                <a href="https://github.com/rafaeloliveira3" class="links" target="_blank">
                     <button class="link-button">
                         <i class="fa-brands fa-github-alt"></i> GitHub
                     </button>
@@ -146,7 +174,15 @@
         </section>
     </main>
     <footer>
-
+        <div class="footer-title">
+            <img src="./img/footer-logo.png" alt="Logo">
+            <h3>Rafael Oliveira | Portifólio</h3>
+        </div>
+        <span>
+            <h6>
+                © 2022 | Todos os direitos reservados.
+            </h6>
+        </span>
     </footer>
 </body>
 </html>
