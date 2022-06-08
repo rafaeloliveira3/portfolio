@@ -115,7 +115,8 @@
     }
     .about-me{
         width: 80%;
-        transition: .5s;
+        transition: transform .5s;
+        height: fit-content;
     }
     .about-me h1{
         font-size: 2.5rem;
@@ -128,12 +129,15 @@
     }
     .about-me.hide{
         transform: translate(200%);
+        height: 0;
     }
 
     .card-oqeufaco{
         transform: translate(200%);
-        transition: .5s;
-        height: 0;
+        opacity: 0;
+        transition: transform .5s;
+        margin: 0px;
+        height: 0px;
     }
     #content-oqeufaco{
         display: flex;
@@ -146,13 +150,16 @@
     }
     .card-oqeufaco.show{
         height: max-content;
+        opacity: 1;
         transform: translate(0);
     }
 
     .card-experience{
         transform: translate(200%);
-        transition: .5s;
-        height: 0;
+        opacity: 0;
+        transition: transform .5s;
+        margin: 0px;
+        height: 0px;
     }
     #content-experience{
         display: flex;
@@ -165,6 +172,7 @@
     }
     .card-experience.show{
         height: max-content;
+        opacity: 1;
         transform: translate(0);
     }
 }

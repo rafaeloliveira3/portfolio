@@ -61,3 +61,30 @@
     width: 50%;
     text-align: center;
 }
+
+@media (max-width:768px){
+    .sessao2 h1{
+        font-size: 3.5rem;
+    }
+    .site-text h1, .site-text-right h1{
+        font-size: 3.5rem;
+    }
+    .site-text h5, .site-text-right h5{
+        font-size: 1.8rem;
+        width: 90%;
+    }
+    .project{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0 0;
+    }
+    .project-right{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0;
+    }
+    .project img, .project-right img{
+        width: 70%;
+        height: 70%;
+    }
+}

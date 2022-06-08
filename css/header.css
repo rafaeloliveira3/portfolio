@@ -16,8 +16,11 @@ header{
     width: 30vw;
 }
 .links-container a{
+    display: flex;
+    align-items: center;
     color: #fff;
     text-decoration: none;
+    text-align: center;
 }
 .image-container{
     height: 100%;
