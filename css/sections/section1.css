@@ -80,6 +80,13 @@
 .card-oqeufaco h1{
     font-size: 2.5rem;
 }
+#click-me-oqeufaco{
+    height: 85%;
+}
+#comeback-oqeufaco{
+    text-align: center;
+}
+
 .card-experience{
     display: none;
     color: #fff;
@@ -87,6 +94,12 @@
 }
 .card-experience h1{
     font-size: 2.5rem;
+}
+#click-me-experience{
+    height: 85%;
+}
+#comeback-experience{
+    text-align: center;
 }
 
 @media (max-width:768px){
