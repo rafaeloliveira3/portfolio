@@ -1,11 +1,11 @@
 const aboutme = document.getElementById('about-me')
 var experienceAboutme = document.getElementById('experience-about-me')
-var oqeufaco = document.getElementById('oqeufaco');
-var experience = document.getElementById('experience')
+var oqeufaco = document.getElementById('click-me-oqeufaco');
+var experience = document.getElementById('click-me-experience')
+var activateOqeufaco = document.getElementById('comeback-oqeufaco')
+var activateExperience = document.getElementById('comeback-experience')
 var contentOqeufaco = document.getElementById('content-oqeufaco')
-var oqeufacoCard = document.getElementById('oqeufaco-card');
 var contentExperience = document.getElementById('content-experience')
-var experienceCard = document.getElementById('experience-card');
 
 function sobremimAction (){
     aboutme.classList.toggle ('hide')
@@ -18,7 +18,7 @@ function oqeufacoAction (){
     contentOqeufaco.classList.remove ('show')
 }
 
-contentOqeufaco.addEventListener('click', oqeufacoAction)
+activateOqeufaco.addEventListener('click', oqeufacoAction)
 
 function experienceAction (){
     aboutme.classList.toggle ('hide')
@@ -31,4 +31,4 @@ function experiencehideAction (){
     contentExperience.classList.remove ('show')
 }
 
-contentExperience.addEventListener('click', experiencehideAction)
+activateExperience.addEventListener('click', experiencehideAction)
