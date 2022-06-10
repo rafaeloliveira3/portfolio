@@ -12,7 +12,7 @@
 
 ## Objetivo do Projeto
 
-O projeto tinha como objeto criar uma Landing Page de um portifólio que contenham informações sobre todos os meus projetos HTML até hoje. seu design possuí inspiração em um design do site "Dribbble", encontrado neste [Link](https://dribbble.com/shots/18051436-Fisma-Creative-Agency-Landing-Page). A programação e configuração de todas as páginas foram feitas em HTML, CSS e JAVASCRIPT. O Site é inteiramente responsivo, e pode ser visualizado em diferentes resoluções de monitores.
+O projeto tinha como objeto criar uma Landing Page de um portifólio que contenham informações sobre todos os meus projetos HTML até hoje. seu design possuí inspiração em um design do site "Dribbble", encontrado neste [Link](https://dribbble.com/shots/18051436-Fisma-Creative-Agency-Landing-Page). A programação e configuração de todas as páginas foram feitas em HTML, CSS e JAVASCRIPT, além do uso do "Skeleton Framework". O Site é inteiramente responsivo, e pode ser visualizado em diferentes resoluções de monitores.
 
 ## O que é uma "Landing Page"?
 
@@ -25,6 +25,7 @@ Landing Pages são páginas com foco principal na conversão de visitantes, assi
 * HTML5
 * CSS 3
 * JAVASCRIPT
+* SKELETON FRAMEWORK
 * DIBBBLE
 
 ---
