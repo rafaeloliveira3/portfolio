@@ -6,6 +6,9 @@
     padding: 5% 0;
     gap: 10vh;
 }
+.sessao2.dark{
+    color: #fff;
+}
 .section-title{
     display: flex;
     flex-direction: column;

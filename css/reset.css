@@ -1,4 +1,9 @@
 html, body{
     position: relative;
     overflow-x: hidden;
+    transition: background .5s;
+}
+
+body.dark{
+    background-color: #121212;
 }
