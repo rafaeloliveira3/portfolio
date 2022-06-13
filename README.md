@@ -26,7 +26,7 @@ Landing Pages são páginas com foco principal na conversão de visitantes, assi
 * CSS 3
 * JAVASCRIPT
 * SKELETON FRAMEWORK
-* DIBBBLE
+* DRIBBBLE
 
 ---
 
@@ -40,3 +40,9 @@ Landing Pages são páginas com foco principal na conversão de visitantes, assi
 ## Autor
 
 [Rafael Oliveira](https://github.com/rafaeloliveira3)
+
+---
+
+## Atualizações:
+
+* 16/06/2022 - Adicionado o "Tema Escuro" na página.
