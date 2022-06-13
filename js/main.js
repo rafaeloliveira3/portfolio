@@ -7,6 +7,15 @@ var activateExperience = document.getElementById('comeback-experience')
 var contentOqeufaco = document.getElementById('content-oqeufaco')
 var contentExperience = document.getElementById('content-experience')
 
+// Variáveis do Tema Escuro
+var darkMode = document.getElementById('dark-mode-button')
+var darkSection1 = document.getElementById('portifolio')
+var darkSection2 = document.getElementById('sobremim')
+var darkSection3 = document.getElementById('contato')
+var darkFooter = document.getElementById('rodape')
+var logoHide = document.getElementById('normal-footer-logo')
+var logoShow = document.getElementById('dark-footer-logo')
+
 function sobremimAction (){
     aboutme.classList.toggle ('hide')
     contentOqeufaco.classList.toggle ('show')
@@ -32,3 +41,16 @@ function experiencehideAction (){
 }
 
 activateExperience.addEventListener('click', experiencehideAction)
+
+function darkModeFunction (){
+    darkMode.classList.toggle ('active')
+    document.body.classList.toggle('dark')
+    darkSection1.classList.toggle('dark')
+    darkSection2.classList.toggle('dark')
+    darkSection3.classList.toggle('dark')
+    darkFooter.classList.toggle('dark')
+    logoHide.classList.toggle('hide')
+    logoShow.classList.toggle('show')
+}
+
+darkMode.addEventListener('click', darkModeFunction)
