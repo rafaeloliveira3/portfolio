@@ -1,20 +1,20 @@
 const aboutme = document.getElementById('about-me')
-var experienceAboutme = document.getElementById('experience-about-me')
-var oqeufaco = document.getElementById('click-me-oqeufaco');
-var experience = document.getElementById('click-me-experience')
-var activateOqeufaco = document.getElementById('comeback-oqeufaco')
-var activateExperience = document.getElementById('comeback-experience')
-var contentOqeufaco = document.getElementById('content-oqeufaco')
-var contentExperience = document.getElementById('content-experience')
+const experienceAboutme = document.getElementById('experience-about-me')
+const oqeufaco = document.getElementById('click-me-oqeufaco');
+const experience = document.getElementById('click-me-experience')
+const activateOqeufaco = document.getElementById('comeback-oqeufaco')
+const activateExperience = document.getElementById('comeback-experience')
+const contentOqeufaco = document.getElementById('content-oqeufaco')
+const contentExperience = document.getElementById('content-experience')
 
 // Variáveis do Tema Escuro
-var darkMode = document.getElementById('dark-mode-button')
-var darkSection1 = document.getElementById('portifolio')
-var darkSection2 = document.getElementById('sobremim')
-var darkSection3 = document.getElementById('contato')
-var darkFooter = document.getElementById('rodape')
-var logoHide = document.getElementById('normal-footer-logo')
-var logoShow = document.getElementById('dark-footer-logo')
+const darkMode = document.getElementById('dark-mode-button')
+const darkSection1 = document.getElementById('portifolio')
+const darkSection2 = document.getElementById('sobremim')
+const darkSection3 = document.getElementById('contato')
+const darkFooter = document.getElementById('rodape')
+const logoHide = document.getElementById('normal-footer-logo')
+const logoShow = document.getElementById('dark-footer-logo')
 
 function sobremimAction (){
     aboutme.classList.toggle ('hide')
