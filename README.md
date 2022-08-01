@@ -1,4 +1,4 @@
-# Portifólio
+# Portfólio
 
 ### Projeto de portifólio construído nas aulas de LIMA (Linguagem de Marcação), no curso de Desenvolvimento de Sistemas do [Senai Jandira](https://jandira.sp.senai.br/), com orientação do Professor [Fernando Leonid](https://github.com/fernandoleonid)
 
